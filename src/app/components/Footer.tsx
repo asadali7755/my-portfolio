@@ -1,0 +1,159 @@
+import React from 'react';
+import { Reveal } from './Reveal';
+
+const Footer = () => {
+  return (
+    <footer className="bg-gray-900 border-t border-gray-800 pt-16 pb-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+          <Reveal>
+            <div className="md:col-span-1">
+              <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500 mb-4">
+                Asad<span className="text-white">Ali</span>
+              </h2>
+              <p className="text-gray-400 mb-4">
+                Creating beautiful, responsive websites and applications with modern technologies and clean code.
+              </p>
+              <div className="flex space-x-4">
+                {['LinkedIn', 'GitHub', 'Twitter', 'Instagram'].map((social, index) => (
+                  <a
+                    key={index}
+                    href="#"
+                    className="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full text-gray-400 hover:text-cyan-400 hover:bg-cyan-900/30 transition-colors duration-300"
+                  >
+                    <span>{social.charAt(0)}</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </Reveal>
+
+          <Reveal>
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-4">Navigation</h3>
+              <ul className="space-y-2">
+                {[
+                  { name: 'Home', href: '/' },
+                  { name: 'About', href: '#about' },
+                  { name: 'Skills', href: '#skills' },
+                  { name: 'Projects', href: '#projects' },
+                  { name: 'Experience', href: '#experience' },
+                  { name: 'Contact', href: '#contact' }
+                ].map((item, index) => (
+                  <li key={index}>
+                    <a
+                      href={item.href}
+                      className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </Reveal>
+
+          <Reveal>
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-4">Services</h3>
+              <ul className="space-y-2">
+                {[
+                  'Web Development',
+                  'UI/UX Design',
+                  'Responsive Design',
+                  'Performance Optimization',
+                  'Cross-Browser Compatibility',
+                  'SEO Optimization'
+                ].map((service, index) => (
+                  <li key={index}>
+                    <a
+                      href="#"
+                      className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"
+                    >
+                      {service}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </Reveal>
+
+          <Reveal>
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-4">Contact Info</h3>
+              <ul className="space-y-2 text-gray-400">
+                <li className="flex items-start">
+                  <svg
+                    className="w-5 h-5 text-cyan-400 mr-2 mt-0.5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    />
+                  </svg>
+                  +92 300 0000000
+                </li>
+                <li className="flex items-start">
+                  <svg
+                    className="w-5 h-5 text-cyan-400 mr-2 mt-0.5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+                  asadali@example.com
+                </li>
+                <li className="flex items-start">
+                  <svg
+                    className="w-5 h-5 text-cyan-400 mr-2 mt-0.5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  Karachi, Pakistan
+                </li>
+              </ul>
+            </div>
+          </Reveal>
+        </div>
+
+        <Reveal>
+          <div className="pt-8 border-t border-gray-800 text-center">
+            <p className="text-gray-500">
+              © {new Date().getFullYear()} Asad Ali. All rights reserved. Designed & Built with ❤️
+            </p>
+          </div>
+        </Reveal>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
