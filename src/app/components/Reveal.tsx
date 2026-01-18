@@ -1,10 +1,10 @@
 'use client';
 
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, ReactNode } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
 
 interface Props {
-  children: JSX.Element;
+  children: ReactNode;
   width?: "fit-content" | "100%";
 }
 
