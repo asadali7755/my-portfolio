@@ -53,33 +53,23 @@ const About = () => {
               <div className="grid grid-cols-2 gap-4 max-w-lg">
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-2">•</span>
-                  <span>Name: Asad Ali</span>
+                  <span className="font-bold text-lg text-white">Name: Asad Ali</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-2">•</span>
-                  <span>Email: your-email@example.com</span>
+                  <span className="font-bold text-lg text-white">Email: leoali851@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-2">•</span>
-                  <span>From: Pakistan</span>
+                  <span className="font-bold text-lg text-white">From: Pakistan</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-2">•</span>
-                  <span>Availability: Available</span>
+                  <span className="font-bold text-lg text-white">Availability: Available</span>
                 </div>
               </div>
             </Reveal>
 
-            <Reveal>
-              <div className="mt-8">
-                <a
-                  href="#"
-                  className="inline-block px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium rounded-full hover:from-cyan-600 hover:to-blue-700 transition-all duration-300"
-                >
-                  Download CV
-                </a>
-              </div>
-            </Reveal>
           </div>
         </div>
       </div>

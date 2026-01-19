@@ -38,18 +38,18 @@ const Skills = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <Reveal>
             <div>
-              <h3 className="text-2xl font-semibold text-white mb-8">Technical Skills</h3>
+              <h3 className="text-2xl font-semibold text-white mb-8">Technical Expertise</h3>
 
               <div className="space-y-6">
                 {skills.map((skill, index) => (
-                  <div key={index}>
+                  <div key={index} className="group">
                     <div className="flex justify-between mb-2">
-                      <span className="text-gray-300">{skill.name}</span>
-                      <span className="text-cyan-400">{skill.level}%</span>
+                      <span className="text-white font-bold">{skill.name}</span>
+                      <span className="text-cyan-400 font-bold">{skill.level}%</span>
                     </div>
-                    <div className="w-full bg-gray-800 rounded-full h-2.5">
+                    <div className="w-full bg-gray-800 rounded-full h-3 overflow-hidden">
                       <div
-                        className="bg-gradient-to-r from-cyan-500 to-blue-600 h-2.5 rounded-full"
+                        className="bg-gradient-to-r from-cyan-500 to-blue-600 h-3 rounded-full transition-all duration-1000 ease-out group-hover:h-4"
                         style={{ width: `${skill.level}%` }}
                       ></div>
                     </div>
@@ -64,16 +64,16 @@ const Skills = () => {
               <h3 className="text-2xl font-semibold text-white mb-8">Professional Skills</h3>
             </Reveal>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
               {tools.map((tool, index) => (
                 <Reveal key={index}>
                   <div
-                    className="bg-gray-800/50 p-6 rounded-xl text-center hover:bg-gray-800 transition-all duration-300 border border-gray-700 hover:border-cyan-500/50 group"
+                    className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl text-center hover:from-gray-700 hover:to-gray-800 transition-all duration-500 border border-gray-700 hover:border-cyan-500/50 group shadow-lg hover:shadow-cyan-500/20 hover:-translate-y-1"
                   >
-                    <div className="text-3xl text-cyan-400 mb-3 group-hover:scale-110 transition-transform duration-300">
+                    <div className="text-4xl text-cyan-400 mb-3 group-hover:scale-125 transition-transform duration-500 bg-gray-900 rounded-full w-16 h-16 flex items-center justify-center mx-auto">
                       {tool.icon}
                     </div>
-                    <h4 className="text-white font-medium">{tool.name}</h4>
+                    <h4 className="text-white font-bold text-lg">{tool.name}</h4>
                   </div>
                 </Reveal>
               ))}
@@ -81,25 +81,28 @@ const Skills = () => {
 
             <Reveal>
               <div className="mt-12">
-                <h3 className="text-2xl font-semibold text-white mb-6">Education</h3>
+                <h3 className="text-2xl font-semibold text-white mb-6">Core Competencies</h3>
 
                 <div className="space-y-6">
-                  <div className="border-l-2 border-cyan-500 pl-4 py-1 ml-3">
-                    <h4 className="text-lg font-semibold text-white">Bachelor of Computer Science</h4>
-                    <p className="text-cyan-400">University of XYZ</p>
-                    <p className="text-gray-400">2018 - 2022</p>
+                  <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-5 rounded-xl border border-gray-700 hover:border-cyan-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10">
+                    <h4 className="text-lg font-bold text-white flex items-center">
+                      <span className="mr-2 text-cyan-400">•</span> Problem Solving
+                    </h4>
+                    <p className="text-gray-400">Analyzing complex challenges and developing efficient solutions</p>
                   </div>
 
-                  <div className="border-l-2 border-cyan-500 pl-4 py-1 ml-3">
-                    <h4 className="text-lg font-semibold text-white">Web Development Certification</h4>
-                    <p className="text-cyan-400">Coursera</p>
-                    <p className="text-gray-400">2021</p>
+                  <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-5 rounded-xl border border-gray-700 hover:border-cyan-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10">
+                    <h4 className="text-lg font-bold text-white flex items-center">
+                      <span className="mr-2 text-cyan-400">•</span> Team Collaboration
+                    </h4>
+                    <p className="text-gray-400">Working effectively with cross-functional teams</p>
                   </div>
 
-                  <div className="border-l-2 border-cyan-500 pl-4 py-1 ml-3">
-                    <h4 className="text-lg font-semibold text-white">UI/UX Design Course</h4>
-                    <p className="text-cyan-400">Udemy</p>
-                    <p className="text-gray-400">2020</p>
+                  <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-5 rounded-xl border border-gray-700 hover:border-cyan-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10">
+                    <h4 className="text-lg font-bold text-white flex items-center">
+                      <span className="mr-2 text-cyan-400">•</span> Project Management
+                    </h4>
+                    <p className="text-gray-400">Leading projects from conception to deployment</p>
                   </div>
                 </div>
               </div>

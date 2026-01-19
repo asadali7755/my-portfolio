@@ -3,82 +3,29 @@ import { Reveal } from './Reveal';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-b from-gray-900 to-black">
+    <section id="contact" className=" w-full h-full py-20 bg-gradient-to-b from-gray-900 to-black">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <Reveal>
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-white mb-4">Contact <span className="text-cyan-400">Me</span></h2>
-            <div className="w-20 h-1 bg-cyan-500 mx-auto"></div>
-            <p className="text-gray-400 max-w-2xl mx-auto mt-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Contact <span className="text-cyan-400">Me</span></h2>
+            <div className="w-20 h-1 bg-cyan-500 mx-auto mb-4"></div>
+            <p className="text-gray-400 max-w-2xl mx-auto mt-6 text-lg">
               Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
             </p>
           </div>
         </Reveal>
 
-        <div className="flex flex-col lg:flex-row gap-12">
+        <div className="flex flex-col">
           <Reveal>
-            <div className="lg:w-1/2">
-              <form className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-gray-300 mb-2">Name</label>
-                  <input
-                    type="text"
-                    id="name"
-                    className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-white"
-                    placeholder="Your Name"
-                  />
-                </div>
+            <div className="w-full h-full">
+              <div className=" w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-2xl border border-gray-700 shadow-xl">
+                <h3 className="text-lg font-bold text-white mb-6 text-center">Contact Information</h3>
 
-                <div>
-                  <label htmlFor="email" className="block text-gray-300 mb-2">Email</label>
-                  <input
-                    type="email"
-                    id="email"
-                    className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-white"
-                    placeholder="Your Email"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="subject" className="block text-gray-300 mb-2">Subject</label>
-                  <input
-                    type="text"
-                    id="subject"
-                    className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-white"
-                    placeholder="Subject"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-gray-300 mb-2">Message</label>
-                  <textarea
-                    id="message"
-                    rows={5}
-                    className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 text-white"
-                    placeholder="Your Message"
-                  ></textarea>
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full px-6 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium rounded-lg hover:from-cyan-600 hover:to-blue-700 transition-all duration-300"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
-          </Reveal>
-
-          <Reveal>
-            <div className="lg:w-1/2">
-              <div className="bg-gray-800/30 p-8 rounded-xl border border-gray-700">
-                <h3 className="text-2xl font-bold text-white mb-6">Get In Touch</h3>
-
-                <div className="space-y-6">
-                  <div className="flex items-start">
-                    <div className="bg-cyan-500/10 p-3 rounded-lg mr-4">
+                <div className="space-y-6 mb-8">
+                  <div className="flex items-center group">
+                    <div className="bg-gradient-to-br from-cyan-500/20 to-blue-600/20 p-3 rounded-xl mr-4 group-hover:from-cyan-500/30 group-hover:to-blue-600/30 transition-all duration-300 flex-shrink-0">
                       <svg
-                        className="w-6 h-6 text-cyan-400"
+                        className="w-5 h-5 text-cyan-400"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -92,16 +39,39 @@ const Contact = () => {
                         />
                       </svg>
                     </div>
-                    <div>
-                      <h4 className="text-lg font-semibold text-white mb-1">Phone</h4>
-                      <p className="text-gray-400">+92 300 0000000</p>
+                    <div className="flex items-center flex-grow">
+                      <h4 className="text-base font-bold text-white mr-2">Phone:</h4>
+                      <p className="text-gray-300 text-sm flex-grow">+92 327 8262792</p>
                     </div>
                   </div>
 
-                  <div className="flex items-start">
-                    <div className="bg-cyan-500/10 p-3 rounded-lg mr-4">
+                  <div className="flex items-center group">
+                    <div className="bg-gradient-to-br from-cyan-500/20 to-blue-600/20 p-3 rounded-xl mr-4 group-hover:from-cyan-500/30 group-hover:to-blue-600/30 transition-all duration-300 flex-shrink-0">
                       <svg
-                        className="w-6 h-6 text-cyan-400"
+                        className="w-5 h-5 text-cyan-400"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z"
+                        />
+                      </svg>
+                    </div>
+                    <div className="flex items-center flex-grow">
+                      <h4 className="text-base font-bold text-white mr-2">WhatsApp:</h4>
+                      <p className="text-gray-300 text-sm flex-grow">+92 311 5086688</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center group">
+                    <div className="bg-gradient-to-br from-cyan-500/20 to-blue-600/20 p-3 rounded-xl mr-4 group-hover:from-cyan-500/30 group-hover:to-blue-600/30 transition-all duration-300 flex-shrink-0">
+                      <svg
+                        className="w-5 h-5 text-cyan-400"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -115,16 +85,16 @@ const Contact = () => {
                         />
                       </svg>
                     </div>
-                    <div>
-                      <h4 className="text-lg font-semibold text-white mb-1">Email</h4>
-                      <p className="text-gray-400">asadali@example.com</p>
+                    <div className="flex items-center flex-grow">
+                      <h4 className="text-base font-bold text-white mr-2">Email:</h4>
+                      <p className="text-gray-300 text-sm flex-grow">leoali851@gmail.com</p>
                     </div>
                   </div>
 
-                  <div className="flex items-start">
-                    <div className="bg-cyan-500/10 p-3 rounded-lg mr-4">
+                  <div className="flex items-center group">
+                    <div className="bg-gradient-to-br from-cyan-500/20 to-blue-600/20 p-3 rounded-xl mr-4 group-hover:from-cyan-500/30 group-hover:to-blue-600/30 transition-all duration-300 flex-shrink-0">
                       <svg
-                        className="w-6 h-6 text-cyan-400"
+                        className="w-5 h-5 text-cyan-400"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -144,27 +114,13 @@ const Contact = () => {
                         />
                       </svg>
                     </div>
-                    <div>
-                      <h4 className="text-lg font-semibold text-white mb-1">Location</h4>
-                      <p className="text-gray-400">Karachi, Pakistan</p>
+                    <div className="flex items-center flex-grow">
+                      <h4 className="text-base font-bold text-white mr-2">Location:</h4>
+                      <p className="text-gray-300 text-sm flex-grow">Karachi, Pakistan</p>
                     </div>
                   </div>
                 </div>
 
-                <div className="mt-10">
-                  <h4 className="text-lg font-semibold text-white mb-4">Follow Me</h4>
-                  <div className="flex space-x-4">
-                    {['LinkedIn', 'GitHub', 'Twitter', 'Instagram'].map((social, index) => (
-                      <a
-                        key={index}
-                        href="#"
-                        className="w-12 h-12 flex items-center justify-center bg-gray-800 rounded-full text-gray-400 hover:text-cyan-400 hover:bg-cyan-900/30 transition-colors duration-300"
-                      >
-                        <span>{social.charAt(0)}</span>
-                      </a>
-                    ))}
-                  </div>
-                </div>
               </div>
             </div>
           </Reveal>

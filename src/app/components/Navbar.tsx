@@ -33,12 +33,16 @@ const Navbar = () => {
           : 'bg-transparent py-4'
       }`}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center">
-            <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
-              Asad<span className="text-white">Ali</span>
-            </h2>
+            <img
+              src="/image/logo.5.jpg"
+              alt="Logo"
+              width={60}
+              height={60}
+              className="rounded-full object-cover"
+            />
           </Link>
 
           {/* Desktop Navigation */}

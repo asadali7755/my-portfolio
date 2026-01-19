@@ -33,19 +33,17 @@ function Hero() {
             </div>
           </div>
 
-          <div className="md:w-2/5 flex justify-center">
-            <div className="relative">
-              {/* Profile image container with animated border */}
-              <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-transparent bg-gradient-to-r from-cyan-500 to-blue-600 animate-spin-slow" style={{animationDuration: '10s'}}>
-                <div className="absolute inset-0.5 rounded-full bg-gray-900 overflow-hidden">
-                  <Image
-                    src="/image/my2.jpg"
-                    alt="Asad Ali - Portfolio"
-                    width={320}
-                    height={320}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+          <div className="md:w-1/2 flex justify-center w-full">
+            <div className="relative w-full">
+              {/* Profile image taking up full width and height of right side */}
+              <div className="relative w-full h-[80vh] overflow-hidden">
+                <Image
+                  src="/image/front.png"
+                  alt="Asad Ali - Portfolio"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               {/* Decorative elements */}
