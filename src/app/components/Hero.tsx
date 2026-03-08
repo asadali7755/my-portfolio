@@ -24,12 +24,9 @@ function Hero() {
               From responsive websites to AI agents and chatbots — I turn ideas into powerful digital products that work seamlessly and scale effortlessly.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <button className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium rounded-full hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-cyan-500/30">
-                About Me
-              </button>
-              <button className="px-8 py-3 bg-transparent border-2 border-cyan-500 text-cyan-400 font-medium rounded-full hover:bg-cyan-500 hover:text-white transition-all duration-300 transform hover:-translate-y-1">
+              <a href="#contact" className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium rounded-full hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-cyan-500/30 text-center">
                 Contact Me
-              </button>
+              </a>
             </div>
           </div>
 
