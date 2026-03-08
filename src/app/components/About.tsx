@@ -28,36 +28,34 @@ const About = () => {
             </div>
           </Reveal>
 
-          <div className="lg:w-2/3 text-gray-300">
+          <div className="lg:w-2/3 text-gray-300 text-lg">
             <Reveal>
-              <h3 className="text-2xl font-semibold text-white mb-6">I'm Asad Ali, Frontend Developer</h3>
+              <h3 className="text-3xl font-semibold text-white mb-6">I'm Asad Ali, Full Stack Developer & AI Solutions Engineer</h3>
             </Reveal>
 
             <Reveal>
               <p className="mb-6 leading-relaxed">
-                I'm a passionate Frontend Developer with expertise in creating modern, responsive websites and applications.
-                With a strong foundation in HTML, CSS, JavaScript, and React, I specialize in building intuitive user interfaces
-                that provide exceptional user experiences.
+                I'm a versatile Full Stack Developer who builds everything from sleek, responsive websites and web applications to intelligent AI-powered solutions. With expertise spanning HTML, CSS, JavaScript, React, Python, and modern AI tools, I don't just build interfaces — I build complete digital products that think, automate, and deliver real results.
               </p>
             </Reveal>
 
             <Reveal>
               <p className="mb-6 leading-relaxed">
-                My approach combines technical expertise with creative problem-solving to deliver solutions that not only
-                meet functional requirements but also engage users effectively. I stay updated with the latest industry
-                trends and technologies to ensure my work remains innovative and impactful.
+                My work goes beyond traditional development. I create AI agents, custom chatbots, personal AI employees, and AI-powered skills that help businesses automate workflows, engage customers 24/7, and scale smarter. Whether it's a full web application from scratch or an intelligent assistant that handles tasks on its own — I bring ideas to life with clean code and smart architecture.
               </p>
             </Reveal>
 
             <Reveal>
-              <div className="grid grid-cols-2 gap-4 max-w-lg">
+              <p className="mb-6 leading-relaxed">
+                I combine deep technical expertise with creative problem-solving, always staying ahead of the latest in web development and artificial intelligence to deliver solutions that are not just functional, but genuinely impactful.
+              </p>
+            </Reveal>
+
+            <Reveal>
+              <div className="flex flex-col gap-3 max-w-lg">
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-2">•</span>
-                  <span className="font-bold text-lg text-white">Name: Asad Ali</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="text-cyan-400 mr-2">•</span>
-                  <span className="font-bold text-lg text-white">Email: leoali851@gmail.com</span>
+                  <span className="font-extrabold text-xl text-white">Email: leoali851@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-2">•</span>

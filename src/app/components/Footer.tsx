@@ -12,7 +12,7 @@ const Footer = () => {
                 Asad<span className="text-white">Ali</span>
               </h2>
               <p className="text-gray-400 mb-4">
-                Creating beautiful, responsive websites and applications with modern technologies and clean code.
+                Full Stack Developer & AI Solutions Engineer — building web apps, AI agents, and automation tools that deliver real results.
               </p>
              
             </div>
@@ -48,12 +48,12 @@ const Footer = () => {
               <h3 className="text-lg font-semibold text-white mb-4">Services</h3>
               <ul className="space-y-2">
                 {[
-                  'Web Development',
-                  'UI/UX Design',
-                  'Responsive Design',
-                  'Performance Optimization',
-                  'Cross-Browser Compatibility',
-                  'SEO Optimization'
+                  'Full Stack Web Development',
+                  'AI Agents & Chatbots',
+                  'Workflow Automation',
+                  'Next.js Applications',
+                  'API Integration',
+                  'Deployment & Hosting'
                 ].map((service, index) => (
                   <li key={index}>
                     <a

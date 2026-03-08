@@ -1,0 +1,43 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#3b1a45"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg3)"/>
+  <!-- Shopping bag icon -->
+  <g transform="translate(400,85)" text-anchor="middle">
+    <!-- Bag body -->
+    <rect x="-45" y="-10" width="90" height="90" rx="10" fill="none" stroke="#a855f7" stroke-width="2.5"/>
+    <!-- Bag handle -->
+    <path d="M-20,-10 C-20,-40 20,-40 20,-10" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Cart/tag icon inside -->
+    <circle cx="0" cy="35" r="18" fill="none" stroke="#ec4899" stroke-width="2"/>
+    <text x="0" y="42" text-anchor="middle" fill="#ec4899" font-family="Arial, sans-serif" font-size="22" font-weight="bold">$</text>
+    <!-- Sparkle left -->
+    <line x1="-65" y1="0" x2="-65" y2="20" stroke="#a855f7" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-75" y1="10" x2="-55" y2="10" stroke="#a855f7" stroke-width="2" stroke-linecap="round"/>
+    <!-- Sparkle right -->
+    <line x1="65" y1="5" x2="65" y2="20" stroke="#ec4899" stroke-width="2" stroke-linecap="round"/>
+    <line x1="57" y1="12" x2="73" y2="12" stroke="#ec4899" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Title -->
+  <text x="400" y="225" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">E-Commerce Business</text>
+  <text x="400" y="260" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Website</text>
+  <!-- Accent line -->
+  <rect x="300" y="280" width="200" height="3" rx="2" fill="url(#accent3)"/>
+  <!-- Tech tags -->
+  <g font-family="Arial, sans-serif" font-size="14" fill="#a855f7">
+    <rect x="235" y="300" width="80" height="28" rx="14" fill="#a855f7" fill-opacity="0.15"/>
+    <text x="275" y="319" text-anchor="middle">Next.js</text>
+    <rect x="325" y="300" width="100" height="28" rx="14" fill="#a855f7" fill-opacity="0.15"/>
+    <text x="375" y="319" text-anchor="middle">TypeScript</text>
+    <rect x="435" y="300" width="110" height="28" rx="14" fill="#a855f7" fill-opacity="0.15"/>
+    <text x="490" y="319" text-anchor="middle">Tailwind CSS</text>
+  </g>
+</svg>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asad Ali - CV</title>
+  <style>
+    @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f4; color: #333; }
+    .cv { max-width: 800px; margin: 20px auto; background: #fff; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+    .header { background: linear-gradient(135deg, #0f172a, #1e3a5f); color: #fff; padding: 40px; }
+    .header h1 { font-size: 36px; margin-bottom: 8px; }
+    .header h2 { font-size: 18px; color: #22d3ee; font-weight: 400; margin-bottom: 16px; }
+    .header-info { display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; color: #cbd5e1; }
+    .header-info span { display: flex; align-items: center; gap: 6px; }
+    .content { padding: 30px 40px; }
+    .section { margin-bottom: 28px; }
+    .section-title { font-size: 20px; color: #0f172a; border-bottom: 3px solid #22d3ee; padding-bottom: 6px; margin-bottom: 16px; text-transform: uppercase; letter-spacing: 1px; }
+    .summary { font-size: 15px; line-height: 1.7; color: #555; }
+    .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .skill-tag { background: #f0fdfa; color: #0f766e; padding: 6px 12px; border-radius: 6px; font-size: 14px; text-align: center; border: 1px solid #99f6e4; }
+    .exp-item { margin-bottom: 20px; }
+    .exp-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
+    .exp-role { font-size: 16px; font-weight: 700; color: #0f172a; }
+    .exp-period { font-size: 13px; color: #22d3ee; background: #f0fdfa; padding: 2px 10px; border-radius: 12px; }
+    .exp-company { font-size: 14px; color: #0891b2; margin-bottom: 6px; }
+    .exp-desc { font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 6px; }
+    .exp-list { list-style: none; padding: 0; }
+    .exp-list li { font-size: 14px; color: #555; padding-left: 18px; position: relative; margin-bottom: 4px; }
+    .exp-list li::before { content: '\2713'; position: absolute; left: 0; color: #22d3ee; font-weight: bold; }
+    .projects-grid { display: grid; gap: 14px; }
+    .project-item { border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; }
+    .project-name { font-size: 15px; font-weight: 700; color: #0f172a; }
+    .project-desc { font-size: 13px; color: #555; margin: 4px 0; }
+    .project-links { font-size: 13px; }
+    .project-links a { color: #0891b2; text-decoration: none; margin-right: 16px; }
+    .project-links a:hover { text-decoration: underline; }
+    .services-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .service-item { font-size: 14px; color: #555; padding-left: 18px; position: relative; }
+    .service-item::before { content: '\2022'; position: absolute; left: 0; color: #22d3ee; font-weight: bold; }
+    .print-btn { display: block; margin: 20px auto; padding: 12px 32px; background: linear-gradient(135deg, #06b6d4, #2563eb); color: #fff; border: none; border-radius: 25px; font-size: 16px; cursor: pointer; }
+    .print-btn:hover { opacity: 0.9; }
+    @media print { .print-btn { display: none; } .cv { box-shadow: none; margin: 0; } }
+  </style>
+</head>
+<body>
+  <div class="cv">
+    <div class="header">
+      <h1>Asad Ali</h1>
+      <h2>Full Stack Developer | AI & Automation Specialist</h2>
+      <div class="header-info">
+        <span>leoali851@gmail.com</span>
+        <span>+92 327 8262792</span>
+        <span>Karachi, Pakistan</span>
+        <span>github.com/asadali7755</span>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="section">
+        <h3 class="section-title">Professional Summary</h3>
+        <p class="summary">
+          Versatile Full Stack Developer and AI Solutions Engineer who builds everything from sleek, responsive web applications to intelligent AI-powered solutions. Experienced with Next.js, TypeScript, React, Python, and modern AI tools including OpenAI Agents SDK, Claude AI, and Hugging Face. Passionate about creating AI agents, custom chatbots, and automation tools that help businesses scale smarter.
+        </p>
+      </div>
+
+      <div class="section">
+        <h3 class="section-title">Technical Skills</h3>
+        <div class="skills-grid">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">TypeScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Next.js</span>
+          <span class="skill-tag">Tailwind CSS</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">Git Bash</span>
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">Vercel</span>
+          <span class="skill-tag">OpenAI Agents SDK</span>
+          <span class="skill-tag">Claude AI</span>
+          <span class="skill-tag">Hugging Face</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3 class="section-title">Work Experience</h3>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <span class="exp-role">Full Stack Developer & AI Solutions Engineer</span>
+            <span class="exp-period">2024 - Present</span>
+          </div>
+          <div class="exp-company">Freelance / Self-Employed</div>
+          <p class="exp-desc">Building end-to-end web applications and AI-powered solutions including custom chatbots, AI agents, and automation tools for businesses.</p>
+          <ul class="exp-list">
+            <li>Built AI agents using OpenAI Agents SDK</li>
+            <li>Developed and deployed full stack apps on Vercel</li>
+            <li>Created AI chatbots for business automation</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <span class="exp-role">Full Stack Web Developer</span>
+            <span class="exp-period">2023 - 2024</span>
+          </div>
+          <div class="exp-company">Self-Learning & Projects</div>
+          <p class="exp-desc">Mastered full stack development with Next.js, TypeScript, and Tailwind CSS. Built and deployed multiple real-world projects.</p>
+          <ul class="exp-list">
+            <li>Built & deployed e-commerce business website</li>
+            <li>Created fullstack todo app with AI chatbot</li>
+            <li>Published Physical AI Humanoid Robotics Book online</li>
+          </ul>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <span class="exp-role">Frontend Developer</span>
+            <span class="exp-period">2022 - 2023</span>
+          </div>
+          <div class="exp-company">Learning & Foundations</div>
+          <p class="exp-desc">Started the development journey by learning HTML, CSS, JavaScript, React, and modern frontend tools.</p>
+          <ul class="exp-list">
+            <li>Learned HTML, CSS, JavaScript & React</li>
+            <li>Built multiple responsive websites</li>
+            <li>Gained expertise in Tailwind CSS & Figma</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3 class="section-title">Projects</h3>
+        <div class="projects-grid">
+          <div class="project-item">
+            <div class="project-name">Physical AI Humanoid Robotics Book</div>
+            <p class="project-desc">An interactive online book exploring Physical AI and Humanoid Robotics concepts with modern web design.</p>
+            <div class="project-links">
+              <a href="https://physical-ai-humanoid-robotics-book-taupe.vercel.app/" target="_blank">Live Demo</a>
+              <a href="https://github.com/asadali7755/Physical-AI-Humanoid-Robotics-book" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-name">Fullstack Todo App with Chatbot</div>
+            <p class="project-desc">A fullstack todo application with an integrated AI chatbot for smart task management.</p>
+            <div class="project-links">
+              <a href="https://fullstack-todo-app-6j7s.vercel.app/" target="_blank">Live Demo</a>
+              <a href="https://github.com/asadali7755/Phase-3-fullstack-todo-app-chatbot" target="_blank">GitHub</a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-name">E-Commerce Business Website</div>
+            <p class="project-desc">A modern e-commerce business website with product listings, shopping cart, and seamless checkout experience.</p>
+            <div class="project-links">
+              <a href="https://hackathon3-phi.vercel.app/" target="_blank">Live Demo</a>
+              <a href="https://github.com/asadali7755/hackathon3" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3 class="section-title">Services</h3>
+        <div class="services-list">
+          <span class="service-item">Full Stack Web Development</span>
+          <span class="service-item">AI Agents & Chatbots</span>
+          <span class="service-item">Workflow Automation</span>
+          <span class="service-item">Next.js Applications</span>
+          <span class="service-item">API Integration</span>
+          <span class="service-item">Deployment & Hosting</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="print-btn" onclick="window.print()">Download as PDF</button>
+</body>
+</html>

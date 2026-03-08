@@ -5,38 +5,38 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      role: 'Senior Frontend Developer',
-      company: 'Tech Innovations Inc.',
-      period: '2022 - Present',
-      description: 'Lead frontend development for enterprise applications using React and TypeScript. Implemented design systems and component libraries to improve development efficiency by 40%.',
+      role: 'Full Stack Developer & AI Solutions Engineer',
+      company: 'Freelance / Self-Employed',
+      period: '2024 - Present',
+      description: 'Building end-to-end web applications and AI-powered solutions including custom chatbots, AI agents, and automation tools for businesses.',
       achievements: [
-        'Improved application performance by 35%',
-        'Led a team of 5 developers',
-        'Implemented CI/CD pipelines'
+        'Built AI agents using OpenAI Agents SDK',
+        'Developed and deployed full stack apps on Vercel',
+        'Created AI chatbots for business automation'
       ]
     },
     {
       id: 2,
-      role: 'Frontend Developer',
-      company: 'Digital Solutions LLC',
-      period: '2020 - 2022',
-      description: 'Developed responsive web applications for clients across various industries. Collaborated with UX designers to implement pixel-perfect interfaces.',
+      role: 'Full Stack Web Developer',
+      company: 'Self-Learning & Projects',
+      period: '2023 - 2024',
+      description: 'Mastered full stack development with Next.js, TypeScript, and Tailwind CSS. Built and deployed multiple real-world projects including e-commerce platforms and todo apps with AI integration.',
       achievements: [
-        'Built 15+ client projects',
-        'Reduced load times by 50%',
-        'Implemented automated testing'
+        'Built & deployed e-commerce business website',
+        'Created fullstack todo app with AI chatbot',
+        'Published Physical AI Humanoid Robotics Book online'
       ]
     },
     {
       id: 3,
-      role: 'Junior Web Developer',
-      company: 'Creative Web Agency',
-      period: '2018 - 2020',
-      description: 'Created websites and web applications for small businesses. Maintained and updated existing client sites.',
+      role: 'Frontend Developer',
+      company: 'Learning & Foundations',
+      period: '2022 - 2023',
+      description: 'Started the development journey by learning HTML, CSS, JavaScript, React, and modern frontend tools. Built responsive websites and gained strong UI/UX foundations.',
       achievements: [
-        'Delivered 30+ websites',
-        'Learned modern development practices',
-        'Assisted in SEO optimization'
+        'Learned HTML, CSS, JavaScript & React',
+        'Built multiple responsive websites',
+        'Gained expertise in Tailwind CSS & Figma'
       ]
     }
   ];

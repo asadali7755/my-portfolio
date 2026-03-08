@@ -18,10 +18,10 @@ function Hero() {
               Hello, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Asad Ali</span>
             </h1>
             <h2 className="text-xl sm:text-2xl md:text-3xl text-gray-300 mb-8">
-              Frontend Developer & UI/UX Designer
+              Full Stack Developer | AI & Automation Specialist
             </h2>
             <p className="text-lg text-gray-400 max-w-lg mb-10">
-              I create beautiful, responsive websites and applications with modern technologies and clean code.
+              From responsive websites to AI agents and chatbots — I turn ideas into powerful digital products that work seamlessly and scale effortlessly.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <button className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium rounded-full hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-cyan-500/30">

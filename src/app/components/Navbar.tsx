@@ -58,9 +58,9 @@ const Navbar = () => {
             ))}
           </nav>
 
-          <button className="hidden md:inline-flex items-center bg-gradient-to-r from-cyan-500 to-blue-600 border-0 py-2 px-6 focus:outline-none hover:from-cyan-600 hover:to-blue-700 rounded-full text-white">
+          <a href="/Asad-Ali-CV.html" target="_blank" className="hidden md:inline-flex items-center bg-gradient-to-r from-cyan-500 to-blue-600 border-0 py-2 px-6 focus:outline-none hover:from-cyan-600 hover:to-blue-700 rounded-full text-white">
             Download CV
-          </button>
+          </a>
 
           {/* Mobile Menu Button */}
           <button
@@ -97,9 +97,9 @@ const Navbar = () => {
                   {link.label}
                 </Link>
               ))}
-              <button className="mx-4 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 border-0 focus:outline-none hover:from-cyan-600 hover:to-blue-700 rounded-md text-white">
+              <a href="/Asad-Ali-CV.html" target="_blank" className="mx-4 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 border-0 focus:outline-none hover:from-cyan-600 hover:to-blue-700 rounded-md text-white text-center">
                 Download CV
-              </button>
+              </a>
             </nav>
           </div>
         )}
