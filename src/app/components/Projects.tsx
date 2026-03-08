@@ -9,7 +9,7 @@ const Projects = () => {
       description: 'An interactive online book exploring Physical AI and Humanoid Robotics concepts with modern web design.',
       technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
       image: '/image/project1.svg',
-      liveUrl: 'https://physical-ai-humanoid-robotics-book-taupe.vercel.app/',
+      liveUrl: 'https://docusaurus-book-rho.vercel.app/',
       githubUrl: 'https://github.com/asadali7755/Physical-AI-Humanoid-Robotics-book',
     },
     {
